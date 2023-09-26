@@ -89,6 +89,16 @@ You can have TypeScript create `tsconfig.json` with the recommended settings wit
 npx tsc --init
 ```
 
+Inside of the `tsconfig.json` header : `JavaScript Support` allowJs:
+
+```json
+/* JavaScript Support */
+    // "allowJs": true, //uncomment this <~~~            /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    // "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
+    // "maxNodeModuleJsDepth": 1,                        /* Specify the maximum folder depth used for checking JavaScript files from 'node_modules'. Only applicable with 'allowJs'. */
+
+```
+
 ### Basic Syntax
 
 [TypeScript Simple Types](https://www.w3schools.com/typescript/typescript_simple_types.php)
